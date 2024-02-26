@@ -15,7 +15,6 @@
     </style>
 </head>
 <body>
-<center><h1>HOME</h1></center>
 <div class="button-container">
     <form action="/">
         <input type="submit" value="Add">
@@ -24,15 +23,16 @@
         <input type="submit" value="Update">
     </form>
     <form action="/g">
-        <input type="submit" value="View">
+        <input type="submit" value="Get">
     </form>
     <form action="/view">
-        <input type="submit" value="View All">
+        <input type="submit" value="Get All">
     </form>
     <form action="/dform">
         <input type="submit" value="Delete">
     </form>
 </div>
+<h2>Employee Already Exists</h2>
 </body>
 </html>
 
